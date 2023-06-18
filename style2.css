@@ -1,0 +1,85 @@
+body{
+    margin: 0rem 0rem;
+    
+}
+nav{
+    position: fixed;
+    background-color: peru;
+    height: 6rem;
+    width: 100%;
+    margin-top: -1.5rem;
+}
+nav ul{
+    float: right;
+    margin-right: 2rem;
+}
+nav ul li{
+    font-size: 150%;
+    display: inline-block;
+    margin: 2rem 3rem;
+}
+nav ul li:hover{
+    border-top: 4px solid darkcyan;
+    
+    color: darkgrey;
+}
+nav div ul li ul li {
+    background-color: blue;  
+    display: list-item;
+    display: none;
+}
+.section1{
+    display: flex;
+    position: relative;
+    top: 4.5rem;
+    left: 10rem;
+    width: 91%;
+}
+.about{
+    width: 40%;
+}
+.image{
+    position: relative;
+    right: -150px;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.log{
+    align-items: center;
+}
+.section2{
+    position: relative;
+    top: 8rem;
+    background-color: gray;
+    padding: 4%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.section2 button{
+    border: none;
+    padding: 1%;
+    font-size: 110%;
+    color: black;
+    margin: 2%;
+    border-radius: 5px;
+}
+.section2 button:hover{
+    color: gray;
+}
+footer{
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+}
+footer div{
+    text-align: center;
+    color: wheat;
+}
